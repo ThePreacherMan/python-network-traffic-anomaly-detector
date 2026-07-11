@@ -46,6 +46,7 @@ def test_high_transfer_volume_is_detected() -> None:
         build_flow(
             bytes_sent=9_000_000,
             bytes_received=2_000_000,
+            duration_seconds=100.0,
         )
     )
 
