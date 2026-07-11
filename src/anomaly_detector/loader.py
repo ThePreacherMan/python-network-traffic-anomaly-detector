@@ -6,7 +6,6 @@ from pathlib import Path
 
 from anomaly_detector.models import NetworkFlow
 
-
 REQUIRED_COLUMNS = {
     "timestamp",
     "source_ip",
